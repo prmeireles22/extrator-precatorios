@@ -1,0 +1,8 @@
+.git
+.gitignore
+node_modules
+dist
+.manus-logs
+.DS_Store
+*.log
+# Docker-related files are usually kept unless they conflict
