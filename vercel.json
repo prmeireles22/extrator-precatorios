@@ -1,11 +1,12 @@
 {
     "version": 2,
+    "buildCommand": "pnpm vite build",
+    "outputDirectory": "dist/public",
     "rewrites": [
         {
             "source": "/(.*)",
             "destination": "/index.html"
         }
     ],
-    "cleanUrls": true,
-    "framework": "vite"
+    "cleanUrls": true
 }
